@@ -1,0 +1,41 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-coffee {font-size:200px;
+            color: blue !important;
+}
+.fas {
+  font-size: 200px;
+  font-weight: 900;
+  color: blue;
+}
+.fab:hover {
+  font-size: 50px;
+  color: blue;
+  
+}
+.w3-red {
+    background-color: cornflowerblue !important;
+}
+
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+.w3-text-grey {
+  color: black !important;
+  font-size: 32px;
+  text-align: center;
+}
+.img {
+  width: 200px;
+  height: 200px; }
+.img1 {
+  width: 400px;
+  height: 400px;
+  
+}  
+.w3-teal {
+  background-color: cornflowerblue !important;
+}
+
+  
+  

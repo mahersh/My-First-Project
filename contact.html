@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<title>Technology Helpers Group.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="home.css">
+<body>
+  <!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About us</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
+    
+   
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+    
+  </div>
+</div>
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+    <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+      <div class="w3-padding-64">
+      
+        
+      </div>
+      <h1>Swing By</h1>
+      <div class="w3-padding-64">
+        <p>..for a cup of coffee, or Technology advice.</p>
+        <p> Ratingen , De  </p>
+        <p> 0049 17 631 374 436</p>
+        <p>Mahersh3@gmail.com</p>
+      </div>
+    </div>
+    <div class="w3-half w3-teal w3-container" style="height:700px">
+      <div class="w3-padding-64 w3-padding-large">
+        <h1>Contact</h1>
+        <p class="w3-opacity">GET IN TOUCH</p>
+        <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+          <div class="w3-section">
+            <label>Name</label>
+            <input class="w3-input" style="width:100%;" type="text" required name="Name">
+          </div>
+          <div class="w3-section">
+            <label>Email</label>
+            <input class="w3-input" style="width:100%;" type="text" required name="Email">
+          </div>
+          <div class="w3-section">
+            <label>Message</label>
+            <input class="w3-input" style="width:100%;" type="text" required name="Message">
+          </div>
+          <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+ 
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+    <div class="w3-xlarge w3-padding-32">
+      <i class="fab fa-facebook-f"></i>
+      
+   </div>
+   <p>Powered by Technology Helpers Group</p>
+  </footer>
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+  </body>
+  </html>
+  
